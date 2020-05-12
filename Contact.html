@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.html" method="POST" enctype="text/plain">
+    <label for="Name">Name :</label>
+    <input type="text" name="name" value="" >
+    
+    <input type="datetime-local" name="DOB">
+</br>
+<label for="">Contact number</label>
+    <input type="tel" name="contact" list="defaultTels">
+
+    <datalist id="defaultTels">
+      <option value="111-1111-1111">
+      <option value="122-2222-2222">
+      <option value="333-3333-3333">
+      <option value="344-4444-4444">
+    </datalist>
+    <br>
+    <input type="submit" name="Submit" >
+</form>
+</body>
+</html>
